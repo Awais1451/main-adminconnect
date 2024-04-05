@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* main-admin css */
+.bg-Images{
+    background-image: url('../images/bg-images.png');
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    object-fit: contain;
+}
+@media(max-width:1300px)
+{
+    .bg-Images{
+        height: 100%;
+    }
+}
+/* main-admin css end*/
+
+/* new pages css start */
+
+.Gogrub {
+    font-family: Poppins;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: center;
+        background-image: linear-gradient(180deg, #4285F4 0%, #2A428C 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+}
+.inputFiled{
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+}
+.inputFiled::placeholder{
+    color: #455A64;
+    font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 19.6px;
+text-align: left;
+}
+.Btnsign{
+   
+    font-family: Helvetica;
+font-size: 14px;
+font-weight: 700;
+line-height: 24px;
+text-align: center;
+}
+
+.Btn-Text{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: white;
+}
+.Btn-text{
+     color: white !important;
+}

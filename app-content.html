@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+
+
+<!-- Mirrored from codervent.com/matoxi/demo/vertical-menu/index2.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 28 Dec 2023 07:46:56 GMT -->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> | Bootstrap 5 Admin Dashboard Template</title>
+    <!--favicon-->
+
+    <!--plugins-->
+    <link href="assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/plugins/metismenu/metisMenu.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/plugins/metismenu/mm-vertical.css">
+    <link rel="stylesheet" type="text/css" href="assets/plugins/simplebar/css/simplebar.css">
+    <!--bootstrap css-->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600&amp;display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+    <!--main css-->
+    <link href="assets/css/bootstrap-extended.css" rel="stylesheet">
+    <link href="sass/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="sass/responsive.css" rel="stylesheet">
+    <!-- font awoseme -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha384-yJHgAOY8Cw6CevUt6KlUZ0RNAYzIN0mqS/4F7Z9q0BRFb5j7mkKaFj+OYXHyi+E0" crossorigin="anonymous">
+
+</head>
+
+<body class="BG-Images   ">
+
+    <div class=" ">
+        <!--start header-->
+        <header class="top-header  ">
+            <nav class="navbar navbar-expand align-items-center gap-4">
+                <div class="btn-toggle">
+                    <a href="javascript:;"><i class="material-icons-outlined text-black ">menu</i></a>
+                </div>
+                <div class="search-bar flex-grow-1">
+                    <div class="position-relative">
+                        <div class="search-popup ">
+                            <div class="card rounded-4  ">
+
+                                <div class="card-body search-content">
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+            </nav>
+        </header>
+        <!--end top header-->
+
+        <!--start sidebar-->
+        <aside class="sidebar-wrapper  rounded-start-3  ">
+            <div class="sidebar-header">
+                <div class="logo-icon logo-name my-3">
+                    <img src="./assets/images/connect-logo.png" class="logo-img" alt="">
+                </div>
+                <div class="logo-namesecond  mt-4 ">
+                    <img src="./assets/images/connect-logo.png" class="logo-img" alt="" style="width: 130px;">
+                </div>
+
+            </div>
+            <div class="sidebar-nav" data-simplebar="true">
+
+                <!--navigation-->
+                <ul class="metismenu" id="sidenav">
+                    <li>
+                        <a href="./index.html">
+                            <div class="parent-icon"><i class="material-icons-outlined menu-titlemain">home</i>
+                            </div>
+                            <div class="menu-title">Places</div>
+                        </a>
+
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="parent-icon"><i class="material-icons-outlined menu-titlemain">widgets</i>
+                            </div>
+                            <div class="menu-title">Routes</div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <div class="parent-icon"><i class="material-icons-outlined menu-titlemain">inventory_2</i>
+                            </div>
+                            <div class="menu-title">App Content </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <div class="parent-icon"><i class="material-icons-outlined menu-titlemain">shopping_bag</i>
+                            </div>
+                            <div class="menu-title">Businesses</div>
+                        </a>
+                    </li>
+                    <p class="ps-2 Sidebar-text py-3 ">General Settings</p>
+                    <li>
+                        <a href="#" class="notify-list ">
+                            <div class="parent-icon"><i class="material-icons-outlined menu-titlemain">settings</i>
+                            </div>
+                            <div class="menu-title">Settings</div>
+                        </a>
+                    </li>
+                    <li class="mt-5 ">
+
+                        <div class="  BTNSign">
+                            <button type="button" class="btn w-100 px-5  ">Logout</button>
+
+                        </div>
+
+                    </li>
+
+                </ul>
+
+                <!--end navigation-->
+            </div>
+
+        </aside>
+        <!--end sidebar-->
+
+
+        <!--start main wrapper-->
+        <main class="main-wrapper rounded-end-3 ">
+            <div class="main-content BorderBotm BG-Colr pb-0  ">
+                <!--breadcrumb-->
+                <div class="page-breadcrumb     d-flex align-items-center mb-3">
+                    <div class="breadcrumb-title pe-3">
+                        <h3>Featured App Content</h3>
+                    </div>
+                </div>
+                <!--end breadcrumb-->
+            </div>
+            <div class="main-content">
+                  <div class="container">
+                    <div class="row py-3">
+                       <div class="col-lg-12  d-flex justify-content-between flex-wrap align-item-center">
+                          <ul class="nav nav-pills update p-2 gap-3">
+                            <li class="nav-item">
+                              <a class="nav-link btn link-botn " href="#">Top Places</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link btn link-botn " href="#">Events updates</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link btn link-botn active text-white " href="./app-content.html">Tour Updates</a>
+                            </li>
+                          </ul>
+                          <div>
+                          <button class="btn btn-primary text-center px-4 mt-3 mt-lg-1 link-botn text-white" type="button">Upload Tour
+                            <span><i class="fa-regular fa-floppy-disk ps-2 fs-5"></i></span>
+                          </button>
+                         </div>
+                        </div>
+                    </div>
+                    <div class=" row-2 p-3 my-4"> 
+                       <form class="row  pt-3">
+                        <div class="col-lg-6">
+                            <div class="mb-3">
+                                <label for="tour" class="form-label tour-lAbel">Tour Title</label>
+                                <input type="text" class="form-control py-3" id="tour" placeholder="Bus tour">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="mb-3">
+                                <label for="tourprice" class="form-label tour-lAbel">Per Person Price</label>
+                                <input type="text" class="form-control py-3" id="tourprice" placeholder="$25 /per person">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="mb-3">
+                                <label for="tourdiscription" class="form-label tour-lAbel">Tour Description</label>
+                                <input type="text" class="form-control py-3" id="tourdiscription" placeholder="2 hour">
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="mb-3">
+                                <label for="tourdate" class="form-label tour-lAbel">Tour Date</label>
+                                <input type="date" class="form-control py-3" id="tourdate" placeholder="$25 /per person">
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="mb-3">
+                                <label for="tourprice" class="form-label tour-lAbel">Tour Time</label>
+                                <input type="time" class="form-control py-3" id="tourprice" placeholder="">
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <h6 class="tour-lAbel">Tour Pickup Location</h6>
+                            <div class="d-flex justify-content-between align-item-center pt-3">
+                                <p class="update-para ps-lg-2 "> 
+                                    <span><i class="fa-solid fa-map-pin pe-2"></i></span>
+                                    7831 Little Landing,Langworth Extensions (30.3811,145.422)
+                                </p>
+                                <a href="https://maps.app.goo.gl/Yu95FxD2D1qLKEAX8">
+                                    <img src="./assets/images/map-add.png" width="30" alt="">
+                                </a>
+                            </div> 
+                        </div>
+                        <div class="col-md-6 mt-lg-4">
+                            <h6 class="tour-lAbel">Upload Thumbnail Image</h6>
+                            <div class="drop-zone my-4">
+                                <span class="drop-zone__prompt"><i class="fa-solid fa-image fs-1 "></i>
+                                    <p class="footer-para"> 
+                                        <a href="" class="text-decoration-none">Upload a file</a>
+                                        or drag and drop or 
+                                        <a href="" class="text-decoration-none">Paste Url</a>
+                                    </p>
+                                </span>
+                                <input type="file" name="myFile" class="drop-zone__input">
+                            </div> 
+                        </div>
+                       </form>
+                  </div> 
+                </div>
+            </div>
+
+
+        </main>
+        <!--end main wrapper-->
+
+
+        <!--start overlay-->
+        <!--start overlay-->
+        <div class="overlay btn-toggle"></div>
+        <!--end overlay-->
+    </div>
+    </div>
+    </div>
+    <!--bootstrap js-->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <!--plugins-->
+    <script src="assets/js/jquery.min.js"></script>
+    <!--plugins-->
+    <script src="assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+    <script src="assets/plugins/metismenu/metisMenu.min.js"></script>
+    <script src="assets/plugins/apexchart/apexcharts.min.js"></script>
+    <script src="assets/plugins/simplebar/js/simplebar.min.js"></script>
+    <script src="assets/js/index2.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script src="https://kit.fontawesome.com/c4e7cb26f8.js" crossorigin="anonymous"></script>
+    <script src="./assets/js/app.js"></script>
+
+    <script src="assets/plugins/chartjs/js/chart.js"></script>
+    <script src="assets/plugins/chartjs/js/chartjs-custom.js"></script>
+    <script src="assets/plugins/simplebar/js/simplebar.min.js"></script>
+</body>
+
+
+<!-- Mirrored from codervent.com/matoxi/demo/vertical-menu/index2.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 28 Dec 2023 07:47:01 GMT -->
+
+</html>

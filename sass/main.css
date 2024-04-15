@@ -30,6 +30,7 @@ body {
   font-family: "Noto Sans", sans-serif;
   letter-spacing: 0.5px;
   background-color: #fafafa !important;
+  
 }
 
 a {
@@ -37,17 +38,18 @@ a {
 }
 
 .BTNSign {
-  background-color: #EB4335;
+  background-color:  transparent;
   border-radius: 10px;
+  border: 1px solid #EB4335;
 }
 
 .BTNSign button {
   font-family: Poppins;
   font-size: 12px;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 30px;
   text-align: center;
-  color: white;
+  color: rgba(235, 67, 53, 1);
 }
 
 input::-moz-placeholder {
@@ -86,7 +88,7 @@ input::placeholder {
 
 /*header*/
 .top-header .navbar {
-  background-color: #3170fe;
+  background-color: #fafafa;
   height: 70px;
   position: fixed;
   left: 260px;
@@ -417,7 +419,7 @@ input::placeholder {
   left: 0;
   width: 260px;
   height: 100%;
-  background-color: #3170fe;
+  background-color: #fafafa;
   border-right: 1px solid var(--bs-border-color);
   z-index: 12;
   transition: ease-out 0.3s;
@@ -429,6 +431,7 @@ input::placeholder {
   display: flex;
   align-items: center;
   justify-content: start;
+ 
   width: 260px;
   /* height: 70px; */
   gap: 0.5rem;
@@ -508,11 +511,11 @@ input::placeholder {
   align-items: center;
   justify-content: left;
   padding: 10px 16px;
-  font-size: 13px;
+  font-size: 14px;
   font-family: Poppins;
   font-weight: 500;
   /* line-height: 18px; */
-  color: white;
+  color: rgba(66, 133, 244, 1);
   outline-width: 0;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -520,7 +523,14 @@ input::placeholder {
   border-radius: 0.25rem;
   transition: all 0.3s ease-out;
 }
-
+.Sidebar-text{
+  font-family: Helvetica;
+font-size: 12px;
+font-weight: 700;
+line-height: 18px;
+text-align: left;
+color: rgba(160, 174, 192, 1);
+}
 .sidebar-wrapper .sidebar-nav .metismenu a .parent-icon {
   line-height: 1;
 }
@@ -542,9 +552,9 @@ input::placeholder {
 }
 
 .sidebar-wrapper .sidebar-nav .metismenu a:hover {
-  color: black;
+  color: white;
   text-decoration: none;
-  background-color: white;
+  background-color: blue;
 }
 
 .sidebar-wrapper .sidebar-nav .metismenu ul {
@@ -571,9 +581,9 @@ input::placeholder {
 }
 
 .sidebar-wrapper .sidebar-nav .metismenu .mm-active>a {
-  color: black;
+  color: white;
   text-decoration: none;
-  background-color: white;
+  background-color: blue;
   /* background-color: rgba(0, 140, 255, 0.05); */
 }
 
@@ -750,6 +760,26 @@ input::placeholder {
   padding-bottom: 20px;
   margin-left: 260px;
   transition: ease-out 0.3s;
+  border: 2px dashed #dddddd;
+  overflow: scroll;
+  overflow-x: hidden;
+  background-color: white;
+  padding-bottom: 0;
+}
+.main-wrapper::-webkit-scrollbar {
+  width: 1px !important; 
+}
+ 
+.main-wrapper::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+.main-wrapper::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  outline: 1px solid slategrey;
+}
+.BorderBotm{
+  border-bottom: 2px dashed #dddddd;
 }
 
 .main-wrapper .main-content {
@@ -972,7 +1002,179 @@ input::placeholder {
 .order-delete:focus {
   background-color: #efefef;
 }
+/* main-admincss satrt */
+.BG-Colr{
+  background-color: #fafafa;
+}
+/* .BG-Images{
+  background-image: url('../assets/images/bg-images.png');
+  width: 100%;
+  height: 100vh;
+  /* background-position: center; 
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  object-fit: contain;
+} */
+.btn-Style{
+ 
+  padding: 10px 20px;
+  font-family: Poppins;
+font-size: 12px;
+font-weight: 500;
+line-height: 18px;
+text-align: center;
+color: #000000;
+/* background-color: #008cff; */
+/* color: white; */
+}
+.btn-Style:hover.active{
+  background-color: #008cff;
+  color: white;
+}
+.Main-admin-text{
+  font-family: Poppins;
+font-size: 20px;
+font-weight: 600;
+line-height: 32px;
+text-align: left;
+color: rgba(35, 35, 37, 1);
+}
+.Park-text{
+  font-family: Poppins;
+font-size: 16px;
+font-weight: 600;
+line-height: 32px;
+text-align: left;
+color: rgba(35, 35, 37, 1);
+}
+.park-para{
+  font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+text-align: left;
+color: rgba(0, 0, 0, 1);
+}
+.btn-text{
+  font-family: Inter;
+font-size: 14px !important;
+font-weight: 400;
+line-height: 22px;
+text-align: left;
+color: white;
+}
+.card{
+  border: none !important;
+  box-shadow: none !important; 
+}
+.update{
+  border: 1px solid rgba(224, 224, 224, 1);
+  border-radius: 5px;
+}
+.link-botn{
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: center;
+  color: black ;
+}
+.link-botn:hover{
+  background-color: blue !important;
+  color: #FFFFFF !important;
+}
+.row-2{
+  border:1px solid rgba(224, 224, 224, 1);
+  border-radius: 5px; 
+}
+.tour-lAbel{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: rgba(111, 114, 122, 1);
 
+}
+.update-para{
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 1);
+}
+
+/* file upload */
+.drop-zone {
+  max-width: 600px;
+  height: 300px;
+  padding: 10px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+  color: #cccccc;
+  border: 2px dashed rgba(224, 226, 231, 1);
+  border-radius: 10px;
+}
+
+.drop-zone--over {
+  border-style: solid;
+}
+
+.drop-zone__input {
+  display: none;
+}
+
+.drop-zone__thumb {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.drop-zone__thumb::after {
+  content: attr(data-label);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px 0;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.75);
+  font-size: 14px;
+  text-align: center;
+}
+.drop-zone__input[type="file"]{
+  display: none;
+}
+.Event-head{
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  color: rgba(35, 35, 37, 1);
+
+}
+.eventPara{
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 1);
+}
+/* main-admincss  end */
 /* new business project css */
 .NUMBER {
   font-family: Poppins;
@@ -1950,7 +2152,7 @@ form select.error:focus {
 }
 
 .menu-titlemain {
-  display: none;
+  /* display: none; */
 }
 
 body.toggled:not(.sidebar-hovered) .sidebar-wrapper .metismenu .menu-titlemain {
@@ -2047,23 +2249,23 @@ table.dataTable thead>tr>th.sorting::after {
 
 }
 
-.active>.page-link,
+/* .active>.page-link,
 .page-link.active {
-  background-color: black !important;
+  background-color: black ;
 }
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
-  background-color: #FBD54F !important;
-  color: black !important;
+  background-color: #FBD54F ;
+  color: black ;
 }
 
 .nav-pills .nav-link {
-  color: white !important;
+  color: white ;
   margin-left: 10px;
   margin-top: 10px;
   background-color: #616161;
-}
+} */
 
 .maincntaibercardts {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -2100,288 +2302,3 @@ table.dataTable thead>tr>th.sorting::after {
 
 /*##############> New Css End<################ */
 
-
-/*###########> Ayub Pages Start <################ */
-
-/* App logo styling */
-.input-preview__src {
-  display: none;
-}
-
-.input-preview {
-  border: dashed black 0.175em;
-  border-radius: 0.5em;
-  width: 100%;
-  height: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  position: relative;
-  transition: ease-in-out 750ms;
-}
-
-.input-preview::after {
-  position: absolute;
-  top: 35%;
-  left: 0;
-  width: 100%;
-  text-align: center;
-  transform: translateY(50%);
-  content: "Choose a file...";
-  font-style: italic;
-  font-size: 1em;
-  cursor: pointer;
-}
-
-.has-image::before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(50, 50, 50, 0.5);
-  content: " ";
-  transition: ease-in-out 750ms;
-}
-
-.has-image::after {
-  content: "Choose another file...";
-  color: white;
-}
-
-/* small logo app styling */
-.input-sec {
-  display: none;
-}
-
-.input-sec-label {
-  border: dashed black 0.175em;
-  border-radius: 0.5em;
-  width: 150px;
-  height: 150px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  position: relative;
-  transition: ease-in-out 750ms;
-}
-
-.input-sec-label::after {
-  position: absolute;
-  top: 35%;
-  left: 0;
-  width: 100%;
-  text-align: center;
-  transform: translateY(50%);
-  content: "Choose a file...";
-  font-style: italic;
-  font-size: 1em;
-  cursor: pointer;
-}
-
-.hasImage::before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(50, 50, 50, 0.5);
-  content: " ";
-  transition: ease-in-out 750ms;
-}
-
-.hasImage::after {
-  content: "Choose another file...";
-  color: white;
-}
-
-/* productlist styling */
-.input-browse {
-  display: none;
-}
-
-.input-browse-label {
-  border: dashed black 0.175em;
-  border-radius: 0.5em;
-  width: 100%;
-  height: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  position: relative;
-  transition: ease-in-out 750ms;
-}
-
-.input-browse-label::after {
-  position: absolute;
-  top: 35%;
-  left: 0;
-  width: 100%;
-  text-align: center;
-  transform: translateY(50%);
-  content: "";
-  font-style: italic;
-  color: blue;
-  font-size: 1em;
-  cursor: pointer;
-}
-
-.fa-up-long {
-  position: absolute;
-  top: 54%;
-  left: 49%;
-  color: #0387D6;
-}
-
-
-.has_img::before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(50, 50, 50, 0.5);
-  content: " ";
-  transition: ease-in-out 750ms;
-}
-
-.has_img::after {
-  content: "Browse another file...";
-  color: white;
-}
-
-.no {
-  display: none !important;
-}
-
-@media (max-width:768px) {
-  .header {
-    flex-direction: column;
-  }
-
-  .input-sec-label,
-  .input-preview {
-    width: 100%;
-  }
-}
-
-.Appinfodetails {
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  padding: 10px;
-  border-radius: 10px;
-  background-color: white;
-}
-
-.appnametext input,
-select {
-  padding-block: 10px;
-  background-color: #F4F4F5;
-
-}
-
-.slide1 {
-  border-radius: 10px;
-}
-
-
-.importproduct {
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  padding: 10px;
-  border-radius: 10px;
-  background-color: white;
-}
-
-.mainformimport {
-  position: relative;
-}
-
-.mainformimportchild {
-  position: absolute;
-  text-align: center;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 1000000 !important;
-}
-
-
-/*###########> Ayub Pages End <################ */
-/*#####################> Ahmar Css Start <############  */
-
-
-
-.header-container {
-  background-color: white;
-}
-
-.add-product {
-  .note p {
-    font-size: 14px;
-    background: rgba(251, 213, 79, 1);
-    padding: 5px 9px 5px 9px;
-    border-radius: 5px;
-  }
-
-}
-
-.form-row {
-  background-color: white;
-  border-radius: 10px;
-}
-
-.form-row select,
-input {
-  background-color: #F4F4F5 !important;
-}
-
-.masterselect {
-  background-color: #F4F4F5 !important;
-}
-
-/*****  sweet alert styling *****/
-
-.swal2-title {
-  text-align: start !important;
-}
-
-.swal2-confirm {
-  order: 2 !important;
-  padding-inline: 60px !important;
-  background-color: rgba(227, 54, 41, 1) !important;
-}
-
-.swal2-cancel {
-  padding-inline: 40px !important;
-  background-color: rgba(107, 122, 133, 1) !important;
-}
-
-.cancel-btn {
-  background-color: rgba(107, 122, 133, 1) !important;
-  padding-inline: 64.5px;
-}
-
-/***** End  sweet alert styling *****/
-
-@media (width<768px) {
-
-  .note-container,
-  .form-container,
-  .header-container {
-    padding: 10px !important;
-  }
-
-  .note {
-    padding: 0 !important;
-  }
-}
-
-/*#####################> Ahmar Css End <############  */

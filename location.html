@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+
+
+<!-- Mirrored from codervent.com/matoxi/demo/vertical-menu/index2.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 28 Dec 2023 07:46:56 GMT -->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> | Bootstrap 5 Admin Dashboard Template</title>
+    <!--favicon-->
+    <!--plugins-->
+    <link href="assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/plugins/metismenu/metisMenu.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/plugins/metismenu/mm-vertical.css">
+    <link rel="stylesheet" type="text/css" href="assets/plugins/simplebar/css/simplebar.css">
+    <!--bootstrap css-->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600&amp;display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+    <!--main css-->
+    <link href="assets/css/bootstrap-extended.css" rel="stylesheet">
+    <link href="sass/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="sass/responsive.css" rel="stylesheet">
+    <!-- font awoseme -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha384-yJHgAOY8Cw6CevUt6KlUZ0RNAYzIN0mqS/4F7Z9q0BRFb5j7mkKaFj+OYXHyi+E0" crossorigin="anonymous">
+
+</head>
+
+<body class="BG-Images   ">
+
+    <div class=" ">
+        <!--start header-->
+        <header class="top-header  ">
+            <nav class="navbar navbar-expand align-items-center gap-4">
+                <div class="btn-toggle">
+                    <a href="javascript:;"><i class="material-icons-outlined text-black ">menu</i></a>
+                </div>
+                <div class="search-bar flex-grow-1">
+                    <div class="position-relative">
+                        <div class="search-popup ">
+                            <div class="card rounded-4  ">
+
+                                <div class="card-body search-content">
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+            </nav>
+        </header>
+        <!--end top header-->
+
+        <!--start sidebar-->
+        <aside class="sidebar-wrapper  rounded-start-3  ">
+            <div class="sidebar-header">
+                <div class="logo-icon logo-name my-3">
+                    <img src="./assets/images/connect-logo.png" class="logo-img" alt="">
+                </div>
+                <div class="logo-namesecond  mt-4 ">
+                    <img src="./assets/images/connect-logo.png" class="logo-img" alt="" style="width: 130px;">
+                </div>
+
+            </div>
+            <div class="sidebar-nav" data-simplebar="true">
+
+                <!--navigation-->
+                <ul class="metismenu" id="sidenav">
+                    <li>
+                        <a href="./index.html">
+                            <div class="parent-icon"><i class="material-icons-outlined menu-titlemain">home</i>
+                            </div>
+                            <div class="menu-title">Places</div>
+                        </a>
+
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="parent-icon"><i class="material-icons-outlined menu-titlemain">widgets</i>
+                            </div>
+                            <div class="menu-title">Routes</div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <div class="parent-icon"><i class="material-icons-outlined menu-titlemain">inventory_2</i>
+                            </div>
+                            <div class="menu-title">App Content </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <div class="parent-icon"><i class="material-icons-outlined menu-titlemain">shopping_bag</i>
+                            </div>
+                            <div class="menu-title">Businesses</div>
+                        </a>
+                    </li>
+                    <p class="ps-2 Sidebar-text py-3 ">General Settings</p>
+                    <li>
+                        <a href="#" class="notify-list ">
+                            <div class="parent-icon"><i class="material-icons-outlined menu-titlemain">settings</i>
+                            </div>
+                            <div class="menu-title">Settings</div>
+                        </a>
+                    </li>
+                    <li class="mt-5 ">
+
+                        <div class="  BTNSign">
+                            <button type="button" class="btn w-100 px-5  ">Logout</button>
+
+                        </div>
+
+                    </li>
+
+                </ul>
+
+                <!--end navigation-->
+            </div>
+
+        </aside>
+        <!--end sidebar-->
+
+
+        <!--start main wrapper-->
+        <main class="main-wrapper rounded-end-3 ">
+            <div class="main-content BorderBotm BG-Colr pb-0  ">
+                <!--breadcrumb-->
+                <div class="page-breadcrumb     d-flex  justify-content-between  align-items-center mb-3">
+                    <div class="breadcrumb-title   ">
+                        <h3 class="text-black fw-bold fs-4">Places > <span><a href=""> Add New Place</a></span> </h3>
+                    </div>
+                </div>
+                <!--end breadcrumb-->
+            </div>
+            <div class="main-content">
+                <div class="row">
+                    <div class="col-lg-2 col-sm-4 col-12 py-2">
+                        <a href="./places.html">
+                            <div class="bg-primary    ps-lg-2 ps-md-2 p-lg-0  p-2    rounded">
+                                <div class=" d-flex align-items-center ">
+                                    <h2
+                                        class="bg-white  w-25  px-2 py-2 text-center places-TEXT    rounded text-primary ">
+                                        1</h2>
+                                    <p class="ps-2  text-white fs-6 pt-1   places-TEx">Place Information</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-12 py-2">
+                        <a href="./location.html">
+                            <div class="bg-primary    p-2 rounded">
+                                <div class=" d-flex align-items-center ">
+                                    <h2
+                                        class="bg-white  w-25    text-center px-2 py-2  places-TEXT   rounded text-primary   ">
+                                        2</h2>
+                                    <p class="ps-2  text-white places-TEx">Location</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-12 py-2">
+                        <a href="./timing.html">
+                            <div class="bg-secondary   p-2 rounded">
+                                <div class=" d-flex align-items-center ">
+                                    <h2
+                                        class="bg-white  w-25  px-2 py-2 text-center places-TEXT     rounded text-secondary ">
+                                        3</h2>
+                                    <p class="ps-2  text-white places-TEx">Timings</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-12 py-2">
+                        <a href="./tickets.html">
+                            <div class="bg-secondary   py-2 ps-2  rounded">
+                                <div class=" d-flex align-items-center ">
+                                    <h2
+                                        class="bg-white  w-25 px-2 py-2 text-center places-TEXT    rounded text-secondary ">
+                                        4</h2>
+                                    <p class="ps-2  text-white places-TEx">Tickets</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-12 py-2">
+                        <a href="#">
+                            <div class="bg-secondary  p-2 rounded">
+                                <div class=" d-flex align-items-center ">
+                                    <h2
+                                        class="bg-white  w-25  px-2 py-2 text-center places-TEXT    rounded text-secondary ">
+                                        5</h2>
+                                    <p class="ps-2  text-white places-TEx">Gallery</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-12 py-2">
+                        <a href="#">
+                            <div class="bg-secondary   p-2 rounded">
+                                <div class=" d-flex align-items-center ">
+                                    <h2
+                                        class="bg-white  w-25  px-2 py-2 text-center places-TEXT     rounded text-secondary ">
+                                        6</h2>
+                                    <p class="ps-2  text-white places-TEx">Virtual Guide</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class=" BGcolor rounded  p-3 ">
+                    <h2 class="Rect_Text  pt-3 ">Choose Location</h2>
+                    <div class="map-containered">
+                        <iframe class="rounded"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19087.174128820458!2d-0.4452944538621779!3d53.27346931638137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48785d8e21ef901b%3A0x291a09db9c083f07!2sLangworth%2C%20Lincoln%20LN3%205BB%2C%20UK!5e0!3m2!1sen!2s!4v1713194038653!5m2!1sen!2s"
+                                style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    
+                    <div class=" d-flex align-items-center bg-white px-2 rounded my-3">
+                        <img src="./assets/img/loca.svg" alt="">
+                        <p class=" px-2 pt-3">7831 Little Landing,Langworth Extensions (30.3811,145.422)</p>
+                    </div>
+                    <div class="pt-4 d-flex justify-content-sm-between flex-sm-row flex-column   align-items-center  ">
+                        <a href="#" class="py-2 ">
+                            <button class="btn btn-primary btn-paraed py-2 px-2  "> < Back : Place Information</button>
+                        </a>
+                        <a href="#" class="py-2 ">
+                            <button class="btn btn-primary btn-paraed py-2 px-2  ">Next :Add Timings ></button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+        </main>
+        <!--end main wrapper-->
+
+
+        <!--start overlay-->
+        <!--start overlay-->
+        <div class="overlay btn-toggle"></div>
+        <!--end overlay-->
+    </div>
+    </div>
+    </div>
+    <!--bootstrap js-->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <!--plugins-->
+    <script src="assets/js/jquery.min.js"></script>
+    <!--plugins-->
+    <script src="assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+    <script src="assets/plugins/metismenu/metisMenu.min.js"></script>
+    <script src="assets/plugins/apexchart/apexcharts.min.js"></script>
+    <script src="assets/plugins/simplebar/js/simplebar.min.js"></script>
+    <script src="assets/js/index2.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script src="https://kit.fontawesome.com/c4e7cb26f8.js" crossorigin="anonymous"></script>
+
+
+    <script src="assets/plugins/chartjs/js/chart.js"></script>
+    <script src="assets/plugins/chartjs/js/chartjs-custom.js"></script>
+    <script src="assets/plugins/simplebar/js/simplebar.min.js"></script>
+
+    <!-- editor css -->
+    <script>
+        $(document).ready(function () {
+            $('#bold').on('click', function () {
+                document.execCommand('bold', false, null);
+            });
+
+            $('#italic').on('click', function () {
+                document.execCommand('italic', false, null);
+            });
+
+            $('#underline').on('click', function () {
+                document.execCommand('underline', false, null);
+            });
+
+            $('#align-left').on('click', function () {
+                document.execCommand('justifyLeft', false, null);
+            });
+
+            $('#align-center').on('click', function () {
+                document.execCommand('justifyCenter', false, null);
+            });
+
+            $('#align-right').on('click', function () {
+                document.execCommand('justifyRight', false, null);
+            });
+
+            $('#list-ul').on('click', function () {
+                document.execCommand('insertUnorderedList', false, null);
+            });
+
+            $('#list-ol').on('click', function () {
+                document.execCommand('insertOrderedList', false, null);
+            });
+
+            $('#fonts').on('change', function () {
+                var font = $(this).val();
+                $('.editor').css('font-family', font); // Apply font family directly to the editor content
+            });
+
+            $('#size').on('change', function () {
+                var size = $(this).val();
+                $('.editor').css('fontSize', size + 'px');
+            });
+
+            $('#color').spectrum({
+                color: '#000',
+                showPalette: true,
+                showInput: true,
+                showInitial: true,
+                showInput: true,
+                preferredFormat: "hex",
+                showButtons: false,
+                change: function (color) {
+                    color = color.toHexString();
+                    document.execCommand('foreColor', false, color);
+                }
+            });
+
+            $('.editor').perfectScrollbar();
+        });
+    </script>
+
+</body>
+
+
+<!-- Mirrored from codervent.com/matoxi/demo/vertical-menu/index2.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 28 Dec 2023 07:47:01 GMT -->
+
+</html>

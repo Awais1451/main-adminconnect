@@ -554,7 +554,7 @@ color: rgba(160, 174, 192, 1);
 .sidebar-wrapper .sidebar-nav .metismenu a:hover {
   color: white;
   text-decoration: none;
-  background-color: blue;
+  background-color:#4285F4;
 }
 
 .sidebar-wrapper .sidebar-nav .metismenu ul {
@@ -583,7 +583,7 @@ color: rgba(160, 174, 192, 1);
 .sidebar-wrapper .sidebar-nav .metismenu .mm-active>a {
   color: white;
   text-decoration: none;
-  background-color: blue;
+  background-color:#4285F4;
   /* background-color: rgba(0, 140, 255, 0.05); */
 }
 
@@ -1106,7 +1106,7 @@ color: rgba(160, 174, 192, 1);
 }
 .places-TEx{
   font-family: Poppins;
-font-size: 13px;
+font-size: 10px !important;
 font-weight: 500;
 line-height: 22px;
 text-align: left;
@@ -1258,7 +1258,7 @@ color: white;
   color: black ;
 }
 .link-botn:hover{
-  background-color: blue !important;
+  background-color:#4285F4 !important;
   color: #FFFFFF !important;
 }
 .row-2{
@@ -1299,6 +1299,40 @@ color: white;
   color: #cccccc;
   border: 2px dashed rgba(224, 226, 231, 1);
   border-radius: 10px;
+  overflow: hidden;
+}
+.formselectimgsetting{
+  position: relative;
+}
+.uploadthun{
+  border: 2px solid #536471;
+  width: 170px;
+  border-radius: 30px;
+  padding:   8px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  cursor: pointer;
+}
+.selectdropzon{
+  max-width: 100%;
+  height: 300px;
+  padding: 10px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+  color: #cccccc;
+  border: 2px dashed rgba(224, 226, 231, 1);
+  border-radius: 10px;
+
 }
 
 .drop-zone--over {
@@ -1878,7 +1912,8 @@ label {
   max-width: 1300px; /* Adjust max-width as needed */
   background: #fafafa;
   border-radius: 8px;
-  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, .4);
+ box-shadow: none;
+ border: 1px solid #E0E2E7;
   padding: 10px;
   margin: 0 auto;
   box-sizing: border-box; /* Include padding in width calculation */
@@ -2002,7 +2037,7 @@ background-color: #e8eef9;
   padding: 20px;
   background: #fcfcfc;
   border-radius: 3px;
-  box-shadow: inset 0 0 8px 1px rgba(0, 0, 0, .2);
+  box-shadow: none;
   box-sizing: border-box;
   overflow: auto; /* Use scrollbar when content exceeds height */
   word-break: break-all;

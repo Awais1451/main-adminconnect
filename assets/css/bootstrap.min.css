@@ -307,7 +307,7 @@ sup {
 	top: -.5em
 }
 a {
-	color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
+	color: #4285F4 ;
 	text-decoration: underline
 }
 a:hover {
@@ -2678,7 +2678,7 @@ textarea.form-control-lg {
 }
 .btn-primary {
 	--bs-btn-color: #fff;
-	--bs-btn-bg: #0d6efd;
+	--bs-btn-bg: #4285F4 ;
 	--bs-btn-border-color: #0d6efd;
 	--bs-btn-hover-color: #fff;
 	--bs-btn-hover-bg: #0b5ed7;
@@ -3449,7 +3449,7 @@ textarea.form-control-lg {
 }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
 	color: var(--bs-nav-pills-link-active-color);
-	background-color: var(--bs-nav-pills-link-active-bg)
+	background-color:#4285F4
 }
 .nav-underline {
 	--bs-nav-underline-gap: 1rem;
@@ -7734,7 +7734,7 @@ textarea.form-control-lg {
 }
 .bg-primary {
 	--bs-bg-opacity: 1;
-	background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity))!important
+	background-color:#4285F4 !important
 }
 .bg-secondary {
 	--bs-bg-opacity: 1;

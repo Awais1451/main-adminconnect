@@ -1056,22 +1056,30 @@ color: rgba(160, 174, 192, 1);
 }
 .accept-btn{
   
-  font-family: Inter;
+ 
   font-size: 16px;
-  font-weight: 600;
+ 
   line-height: 22px;
   color: rgba(36, 159, 93, 1);
+
+  background-color: #DCFBEA !important;
+  border: none;
   
 }
 .reject-btn{
 
-  font-family: Inter;
+ 
   font-size: 16px;
-  font-weight: 600;
+  /* font-weight: 600; */
   line-height: 22px;
   text-align: left;
   color: rgba(111, 114, 122, 1);
 
+  background-color: #E0E2E7;
+
+}
+.textviwwbtn{
+  font-size: 14px !important;
 }
 .hotel-btn{
   

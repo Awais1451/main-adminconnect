@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+
+
+<!-- Mirrored from codervent.com/matoxi/demo/vertical-menu/index2.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 28 Dec 2023 07:46:56 GMT -->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> | Bootstrap 5 Admin Dashboard Template</title>
+    <!--favicon-->
+
+    <!--plugins-->
+    <link href="assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/plugins/metismenu/metisMenu.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/plugins/metismenu/mm-vertical.css">
+    <link rel="stylesheet" type="text/css" href="assets/plugins/simplebar/css/simplebar.css">
+    <!--bootstrap css-->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600&amp;display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+    <!--main css-->
+    <link href="assets/css/bootstrap-extended.css" rel="stylesheet">
+    <link href="sass/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="sass/responsive.css" rel="stylesheet">
+    <!-- font awoseme -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha384-yJHgAOY8Cw6CevUt6KlUZ0RNAYzIN0mqS/4F7Z9q0BRFb5j7mkKaFj+OYXHyi+E0" crossorigin="anonymous">
+
+</head>
+
+<body class="BG-Images   ">
+
+    <div class=" ">
+        <!--start header-->
+        <header class="top-header  ">
+            <nav class="navbar navbar-expand align-items-center gap-4">
+                <div class="btn-toggle">
+                    <a href="javascript:;"><i class="material-icons-outlined text-black ">menu</i></a>
+                </div>
+                <div class="search-bar flex-grow-1">
+                    <div class="position-relative">
+                        <div class="search-popup ">
+                            <div class="card rounded-4  ">
+
+                                <div class="card-body search-content">
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+            </nav>
+        </header>
+        <!--end top header-->
+
+        <!--start sidebar-->
+        <aside class="sidebar-wrapper  rounded-start-3  ">
+            <div class="sidebar-header">
+                <div class="logo-icon logo-name my-3">
+                    <img src="./assets/images/connect-logo.png" class="logo-img" alt="">
+                </div>
+                <div class="logo-namesecond  mt-4 ">
+                    <img src="./assets/images/connect-logo.png" class="logo-img" alt="" style="width: 130px;">
+                </div>
+
+            </div>
+            <div class="sidebar-nav" data-simplebar="true">
+
+                <!--navigation-->
+                <ul class="metismenu" id="sidenav">
+                    <li>
+                        <a href="./index.html">
+                            <div class="parent-icon"><i class="material-icons-outlined menu-titlemain">home</i>
+                            </div>
+                            <div class="menu-title">Places</div>
+                        </a>
+
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="parent-icon"><i class="material-icons-outlined menu-titlemain">widgets</i>
+                            </div>
+                            <div class="menu-title">Routes</div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <div class="parent-icon"><i class="material-icons-outlined menu-titlemain">inventory_2</i>
+                            </div>
+                            <div class="menu-title">App Content </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <div class="parent-icon"><i class="material-icons-outlined menu-titlemain">shopping_bag</i>
+                            </div>
+                            <div class="menu-title">Businesses</div>
+                        </a>
+                    </li>
+                    <p class="ps-2 Sidebar-text py-3 ">General Settings</p>
+                    <li>
+                        <a href="#" class="notify-list ">
+                            <div class="parent-icon"><i class="material-icons-outlined menu-titlemain">settings</i>
+                            </div>
+                            <div class="menu-title">Settings</div>
+                        </a>
+                    </li>
+                    <li class="mt-5 ">
+
+                        <div class="  BTNSign">
+                            <button type="button" class="btn w-100 px-5  ">Logout</button>
+
+                        </div>
+
+                    </li>
+
+                </ul>
+
+                <!--end navigation-->
+            </div>
+
+        </aside>
+        <!--end sidebar-->
+
+
+        <!--start main wrapper-->
+        <main class="main-wrapper rounded-end-3 BGcolor ">
+            <div class="main-content BorderBotm BG-Colr pb-0  ">
+                <!--breadcrumb-->
+                <div
+                    class="page-breadcrumb flex-sm-row flex-column       d-flex justify-content-between align-items-center mb-3">
+                    <div class="breadcrumb-title pe-3  ">
+                        <h3>Settings</h3>
+
+                    </div>
+
+                </div>
+                <!--end breadcrumb-->
+            </div>
+            <div class="container mt-5 ">
+                <div class="row">
+                    <div class="col-lg-12 d-flex  justify-content-between flex-wrap align-item-center">
+                        <ul class="nav nav-pills business-head p-1 d-flex gap-3">
+                            <li class="nav-item">
+                                <a class="nav-link  business-botn btn px-5 active" href="./AppSetting.html">App
+                                    Settings</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn business-botn px-4 " href="./AccountSetting.html">Account Settings</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class=" border-2  rounded  p-3 my-3 " style="border: 1px solid #D9D9D9;">
+                  <div class="row">
+                    <div class="col-md-5">
+                        <h2 class="Rect_Text  pt-3 ">Gallery Image</h2>
+                        <p>Recommended Size :1080 X 740</p>
+                       
+                                <form action="/upload" method="post" enctype="multipart/form-data">
+                                    <div class="drop-zone bg-white ">
+                                        <label for="formFile" class="drop-zone__prompt" id="preview">
+                                            <i class="fa-solid fa-image fs-1"></i>
+                                            <p class="footer-para">
+                                                <a href="#" class="text-decoration-none">Upload a file</a> or drag and drop
+                                                or
+                                                <a href="#" class="text-decoration-none">Paste Url</a>
+                                            </p>
+                                        </label>
+                                        <input type="file" id="formFile" name="myFile" class="drop-zone__input"
+                                            accept="image/*">
+                                    </div>
+                                </form>
+    
+                                <div></div>
+    
+                           
+    
+                    </div>
+                    <div class="col-md-4">
+                        <h2 class="Rect_Text  pt-3 ">   App Name</h2>
+
+                        <div class=" py-3 mt-4">
+                           
+                            <input type="text" class="w-100 p-2  bg-white  BG-input" placeholder="Barcelona" autocomplete="off">
+                        </div>
+
+                    </div>
+                    <div class="col-md-3"></div>
+                  </div>
+
+                    <div class=" border-2  rounded  p-3 my-3 "  >
+                        <h2 class="Rect_Text  pt-3 ">App Logo</h2>
+                        <p>Recommended Size :240 X 240</p>
+                        <div class="row">
+                            <div class="col-md-4 ">
+                                <form action="/upload" method="post" enctype="multipart/form-data">
+                                    <div class="drop-zone bg-white">
+                                        <label for="formFile" class="drop-zone__prompt" id="preview">
+                                            <i class="fa-solid fa-image fs-1"></i>
+                                            <p class="footer-para">
+                                                <a href="#" class="text-decoration-none"><b>Upload a file</b>  
+                                            </p>
+                                        </label>
+                                        <input type="file" id="formFile" name="myFile" class="drop-zone__input"
+                                            accept="image/*">
+                                    </div>
+                                </form>
+    
+                                <div></div>
+    
+                            </div>
+                        </div>
+    
+    
+    
+                    </div>
+                </div>
+              
+            </div>
+        </main>
+        <!--end main wrapper-->
+
+
+        <!--start overlay-->
+        <!--start overlay-->
+        <div class="overlay btn-toggle"></div>
+        <!--end overlay-->
+    </div>
+    </div>
+    </div>
+    <!--bootstrap js-->
+    <!--bootstrap js-->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <!--plugins-->
+    <script src="assets/js/jquery.min.js"></script>
+    <!--plugins-->
+    <script src="assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+    <script src="assets/plugins/metismenu/metisMenu.min.js"></script>
+    <script src="assets/plugins/apexchart/apexcharts.min.js"></script>
+    <script src="assets/plugins/simplebar/js/simplebar.min.js"></script>
+    <script src="assets/js/index2.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script src="https://kit.fontawesome.com/c4e7cb26f8.js" crossorigin="anonymous"></script>
+
+
+    <script src="assets/plugins/chartjs/js/chart.js"></script>
+    <script src="assets/plugins/chartjs/js/chartjs-custom.js"></script>
+    <script src="assets/plugins/simplebar/js/simplebar.min.js"></script>
+
+    <!-- uploaded -->
+    <script>
+        document.querySelector('input[type="file"]').addEventListener('change', function () {
+            const file = this.files[0];
+            const reader = new FileReader();
+
+            reader.addEventListener('load', function () {
+                const img = document.createElement('img');
+                img.src = reader.result;
+                img.style.width = '240px'; // Adjust the width here as needed
+                document.getElementById('preview').innerHTML = '';
+                document.getElementById('preview').appendChild(img);
+            });
+
+            if (file) {
+                reader.readAsDataURL(file);
+            }
+        });
+
+
+    </script>
+
+    <!-- editor css -->
+    <script>
+        $(document).ready(function () {
+            $('#bold').on('click', function () {
+                document.execCommand('bold', false, null);
+            });
+
+            $('#italic').on('click', function () {
+                document.execCommand('italic', false, null);
+            });
+
+            $('#underline').on('click', function () {
+                document.execCommand('underline', false, null);
+            });
+
+            $('#align-left').on('click', function () {
+                document.execCommand('justifyLeft', false, null);
+            });
+
+            $('#align-center').on('click', function () {
+                document.execCommand('justifyCenter', false, null);
+            });
+
+            $('#align-right').on('click', function () {
+                document.execCommand('justifyRight', false, null);
+            });
+
+            $('#list-ul').on('click', function () {
+                document.execCommand('insertUnorderedList', false, null);
+            });
+
+            $('#list-ol').on('click', function () {
+                document.execCommand('insertOrderedList', false, null);
+            });
+
+            $('#fonts').on('change', function () {
+                var font = $(this).val();
+                $('.editor').css('font-family', font); // Apply font family directly to the editor content
+            });
+
+            $('#size').on('change', function () {
+                var size = $(this).val();
+                $('.editor').css('fontSize', size + 'px');
+            });
+
+            $('#color').spectrum({
+                color: '#000',
+                showPalette: true,
+                showInput: true,
+                showInitial: true,
+                showInput: true,
+                preferredFormat: "hex",
+                showButtons: false,
+                change: function (color) {
+                    color = color.toHexString();
+                    document.execCommand('foreColor', false, color);
+                }
+            });
+
+            $('.editor').perfectScrollbar();
+        });
+    </script>
+</body>
+
+
+<!-- Mirrored from codervent.com/matoxi/demo/vertical-menu/index2.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 28 Dec 2023 07:47:01 GMT -->
+
+</html>

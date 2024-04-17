@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+
+
+<!-- Mirrored from codervent.com/matoxi/demo/vertical-menu/index2.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 28 Dec 2023 07:46:56 GMT -->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> | Bootstrap 5 Admin Dashboard Template</title>
+    <!--favicon-->
+
+    <!--plugins-->
+    <link href="assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/plugins/metismenu/metisMenu.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/plugins/metismenu/mm-vertical.css">
+    <link rel="stylesheet" type="text/css" href="assets/plugins/simplebar/css/simplebar.css">
+    <!--bootstrap css-->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600&amp;display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+    <!--main css-->
+    <link href="assets/css/bootstrap-extended.css" rel="stylesheet">
+    <link href="sass/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="sass/responsive.css" rel="stylesheet">
+    <!-- font awoseme -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha384-yJHgAOY8Cw6CevUt6KlUZ0RNAYzIN0mqS/4F7Z9q0BRFb5j7mkKaFj+OYXHyi+E0" crossorigin="anonymous">
+
+</head>
+
+<body class="BG-Images   ">
+
+    <div class=" ">
+        <!--start header-->
+        <header class="top-header  ">
+            <nav class="navbar navbar-expand align-items-center gap-4">
+                <div class="btn-toggle">
+                    <a href="javascript:;"><i class="material-icons-outlined text-black ">menu</i></a>
+                </div>
+                <div class="search-bar flex-grow-1">
+                    <div class="position-relative">
+                        <div class="search-popup ">
+                            <div class="card rounded-4  ">
+
+                                <div class="card-body search-content">
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+            </nav>
+        </header>
+        <!--end top header-->
+
+        <!--start sidebar-->
+        <aside class="sidebar-wrapper  rounded-start-3  ">
+            <div class="sidebar-header">
+                <div class="logo-icon logo-name my-3">
+                    <img src="./assets/images/connect-logo.png" class="logo-img" alt="">
+                </div>
+                <div class="logo-namesecond  mt-4 ">
+                    <img src="./assets/images/connect-logo.png" class="logo-img" alt="" style="width: 130px;">
+                </div>
+
+            </div>
+            <div class="sidebar-nav" data-simplebar="true">
+
+                <!--navigation-->
+                <ul class="metismenu" id="sidenav">
+                    <li>
+                        <a href="./index.html">
+                            <div class="parent-icon"><i class="material-icons-outlined menu-titlemain">home</i>
+                            </div>
+                            <div class="menu-title">Places</div>
+                        </a>
+
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="parent-icon"><i class="material-icons-outlined menu-titlemain">widgets</i>
+                            </div>
+                            <div class="menu-title">Routes</div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <div class="parent-icon"><i class="material-icons-outlined menu-titlemain">inventory_2</i>
+                            </div>
+                            <div class="menu-title">App Content </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <div class="parent-icon"><i class="material-icons-outlined menu-titlemain">shopping_bag</i>
+                            </div>
+                            <div class="menu-title">Businesses</div>
+                        </a>
+                    </li>
+                    <p class="ps-2 Sidebar-text py-3 ">General Settings</p>
+                    <li>
+                        <a href="#" class="notify-list ">
+                            <div class="parent-icon"><i class="material-icons-outlined menu-titlemain">settings</i>
+                            </div>
+                            <div class="menu-title">Settings</div>
+                        </a>
+                    </li>
+                    <li class="mt-5 ">
+
+                        <div class="  BTNSign">
+                            <button type="button" class="btn w-100 px-5  ">Logout</button>
+
+                        </div>
+
+                    </li>
+
+                </ul>
+
+                <!--end navigation-->
+            </div>
+
+        </aside>
+        <!--end sidebar-->
+
+
+        <!--start main wrapper-->
+        <main class="main-wrapper rounded-end-3 BG-Colr  ">
+            <div class="main-content BorderBotm BG-Colr pb-0  ">
+                <!--breadcrumb-->
+                <div
+                    class="page-breadcrumb  flex-sm-row flex-column    d-flex justify-content-between align-items-center mb-3">
+                    <div class="breadcrumb-title pe-3  ">
+                        <div class="guide">
+                            <div class="d-flex gap-2 ">
+                                <h4 class="text-primary">Bernard Lane</h4>
+                                <button class="btn text-primary  rounded-5 btnhotel flex-nowrap"
+                                    type="button">Tour Guide</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <a href="./AddRout.html">
+                        <button type="button" class="btn btn-primary"> Update Buissness Info </button>
+                    </a>
+
+                </div>
+                <!--end breadcrumb-->
+            </div>
+            <div class="container mt-5 ">
+
+                <div class="row py-5">
+                    <div class="col-lg-6">
+                        <h5>Buissness Name & Email</h5>
+                        <form class="form   pt-3">
+                            <div class="row py-3 upbussinessseeting">
+                                <div class="col-6">
+                                    <h6 class=""><b>Barcelona Top
+                                        Hotel</b></h6>
+                                    <div class="">
+                                        <p class="mb-0">amy@gmail.com</p>
+                                    </div>
+                                </div>
+                                <div class="col-6 ">
+                                   <div class="d-flex justify-content-end">
+                                    <button class="btn btn-warning rounded-5 ">
+                                        <span><i class="fa-solid fa-phone-volume pe-2"></i></span>
+                                        Send a Mail</button>
+                                   </div>
+                                </div>
+                            </div>
+
+                            <h6 class="mt-4"><b>Phone Number</b></h6>
+                            <div class="row py-3 upbussinessseeting">
+                                <div class="col-6">
+                                   
+                                    <div class="">
+                                        <p class="mb-0">+1 523 23235</p>
+                                    </div>
+                                </div>
+                                <div class="col-6 ">
+                                   <div class="d-flex justify-content-end">
+                                    <button class="btn btn-warning rounded-5 ">
+                                        <span><i class="fa-solid fa-phone-volume pe-2"></i></span>
+                                        Call </button>
+                                   </div>
+                                </div>
+                            </div>
+                            
+
+                        </form>
+                    </div>
+                    <div class="col-lg-6">
+                        <h4>Buissness Description</h4>
+                      <div class="upbussinessseeting">
+                        <p class="p-4 busness-text ps-lg-3">
+                            Consequatur ea sint voluptas et cum animi. Magni dolorem aut dolorem quo culpa temporibus
+                            et. Voluptatem ut velit assumenda asperiores provident nesciunt fuga. Deserunt sunt maiores
+                            odit et autem et facilis facilis voluptatibus. Expedita debitis totam explicabo eos.
+                            Similique harum odit omnis. Debitis ut similique. Omnis iure recusandae maiores at.
+                        </p>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="row py-5">
+                    <h4>Buissness Catalog</h4>
+                    <div class="row  upbussinessseeting p-3">
+                        <div class="col-lg-5 pt-3">
+                            <div class="  border-0">
+                                <div class=" row">
+                                    <div class="col-md-4">
+                                        <img src="./assets/images/hotel-ro.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="col-md-8 card-body">
+                                        <div class="d-flex  flex-row  justify-content-between  align-item-center">
+                                            <h5 class="mt-2">Belfasa Kirk</h5>
+                                            <button class="btn text-primary mt-2 mt-lg-0  rounded-5 btnhotel">$80 per Day</button>
+                                        </div>
+                                        <button class="card-text p-2 mt-3 border-0 rounded-pill  px-3 ">
+                                            <span><i class="fa-solid fa-map-pin" aria-hidden="true"></i></span>
+                                            <small class="text-body-secondary ps-2">Location of the place</small>
+                                          </button>
+                                    </div>
+                                </div>
+            
+                            </div>
+                        </div>
+                        <div class="col-lg-5 pt-2 ">
+                             <div class="d-flex justify-content-between align-item-center">
+                                <p>Schedule for 7 Days</p>
+                                <p>
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7.85937 0.9375C3.99537 0.9375 0.859375 4.0735 0.859375 7.9375C0.859375 11.8015 3.99537 14.9375 7.85937 14.9375C11.7234 14.9375 14.8594 11.8015 14.8594 7.9375C14.8594 4.0735 11.7234 0.9375 7.85937 0.9375ZM7.85937 11.4375C7.47437 11.4375 7.15937 11.1225 7.15937 10.7375V7.9375C7.15937 7.5525 7.47437 7.2375 7.85937 7.2375C8.24437 7.2375 8.55937 7.5525 8.55937 7.9375V10.7375C8.55937 11.1225 8.24437 11.4375 7.85937 11.4375ZM8.55937 5.8375H7.15937V4.4375H8.55937V5.8375Z" fill="#7B8794"/>
+                                        </svg>
+                                        
+                                </p> 
+                             </div>
+                             <div class="row schedule">
+                                <div class="col-md-2 col-3">
+                                    <p class="bg-primary text-white rounded-5 Schedule-para">10/8</p>
+                                </div>
+                                <div class="col-md-2  col-3">
+                                    <p class="bg-primary px-1 text-white rounded-5 Schedule-para"
+                                    >11/8</p>
+                                </div>
+                                <div class="col-md-2  col-3">
+                                    <p class="bg-primary px-1 text-white rounded-5 Schedule-para">12/8</p>
+                                </div>
+                                <div class="col-md-2  col-3">
+                                    <p class="bg-primary px-1 text-white rounded-5 Schedule-para">13/8</p>
+                                </div>
+                                <div class="col-md-2  col-3">
+                                    <p class="Schedule-para">14/8</p>
+                                </div>
+                                <div class="col-md-2  col-3">
+                                    <p class="Schedule-para">15/8</p>
+                                </div>
+                                <div class="col-md-2  col-3">
+                                    <p class="Schedule-para">16/8</p>
+                                </div>
+                             </div>
+                        </div>
+                        <div class="col-lg-2 d-flex flex-column  justify-content-center text-center gap-3">
+                            <div class=" me-lg-4">
+                            <img src="./assets/images/solar_arrow-left-broken.png"  class="img-fluid" width="25" alt="">
+                            </div>
+                            <a href="" class="  ">Update Information</a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+        <!--end main wrapper-->
+
+
+        <!--start overlay-->
+        <!--start overlay-->
+        <div class="overlay btn-toggle"></div>
+        <!--end overlay-->
+    </div>
+    </div>
+    </div>
+    <!--bootstrap js-->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <!--plugins-->
+    <script src="assets/js/jquery.min.js"></script>
+    <!--plugins-->
+    <script src="assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+    <script src="assets/plugins/metismenu/metisMenu.min.js"></script>
+    <script src="assets/plugins/apexchart/apexcharts.min.js"></script>
+    <script src="assets/plugins/simplebar/js/simplebar.min.js"></script>
+    <script src="assets/js/index2.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script src="https://kit.fontawesome.com/c4e7cb26f8.js" crossorigin="anonymous"></script>
+    <script src="./assets/js/app.js"></script>
+
+    <script src="assets/plugins/chartjs/js/chart.js"></script>
+    <script src="assets/plugins/chartjs/js/chartjs-custom.js"></script>
+    <script src="assets/plugins/simplebar/js/simplebar.min.js"></script>
+</body>
+
+
+<!-- Mirrored from codervent.com/matoxi/demo/vertical-menu/index2.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 28 Dec 2023 07:47:01 GMT -->
+
+</html>

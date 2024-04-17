@@ -89,3 +89,314 @@ padding-block: 12px;
     background-color: #F4F5F6;
     color: black;
 }
+
+ 
+.maintable{
+    border: 2px solid #E0E2E7;
+  
+}
+.tableheadingbg{
+    background-color:#F7F7F9 !important;
+    font-size: 14px !important;
+   
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color:#fcfcfc;
+    border-radius: 50px;
+}
+.svgarrow{
+    display: none;
+}
+.nav-pills .nav-link.active .svgarrow{
+    display: block;
+}
+.rightbordertabs{
+    border-right: 1px solid #D8DADC;
+}
+
+.locationstart{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: #4285F4;
+}
+.locationstart svg{
+    position:  absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.locationstart::before{
+   content: '';
+   position: absolute;
+   top: 30px;
+   left: 13px;
+   width: 3px;
+   height: 70px;
+   background-color: #4285F4;
+}
+ 
+
+
+
+
+
+.locationstarts{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    border: 2px solid #D8DADC;
+    background-color:  #F8F8F8;
+    z-index: 100000  !important ;
+}
+ 
+.locationstarts::before{
+   content: '';
+   position: absolute;
+   top: 26px;
+   left: 11px;
+   width: 3px;
+   height: 70px;
+   background-color:#D8DADC;
+}
+ 
+
+.locationstartsE{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    border: 2px solid #D8DADC;
+    background-color:  #F8F8F8;
+    z-index: 100000  !important ;
+}
+ 
+.locationstartsE::before{
+   content: '';
+   position: absolute;
+   top: 26px;
+   left: 11px;
+   width: 3px;
+   height: 70px;
+   background-color:#EB4335;
+}
+ 
+
+
+.locationstartd{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    top: 68px;
+    background-color: #EB4335;
+}
+.locationstartd svg{
+    position:  absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+ 
+
+/* ##########>Bussiness card Start <############  */
+ 
+.newbusiness{
+    border: 1px dashed rgba(217, 217, 217, 1);
+}
+.btnhotel{
+   background:  #d7e3ff;
+}
+.busness-text{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 1);
+
+}
+.guide{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.label-hotel{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+
+}
+.Schedule-para{
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+
+}
+.label-catalog{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(111, 114, 122, 1);
+}
+
+.drop-zone {
+    max-width: 600px;
+    height: 300px;
+    padding: 10px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+    color: #cccccc;
+    border: 2px dashed rgba(224, 226, 231, 1);
+    border-radius: 10px;
+  }
+  
+  .drop-zone--over {
+    border-style: solid;
+  }
+  
+  .drop-zone__input {
+    display: none;
+  }
+  
+  .drop-zone__thumb {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+  }
+  
+  .drop-zone__thumb::after {
+    content: attr(data-label);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 0;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.75);
+    font-size: 14px;
+    text-align: center;
+  }
+  .drop-zone__input[type="file"]{
+    display: none;
+  }
+
+  .icon-chevron {
+    display: block;
+    width: 15px;
+    height: 22px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAWCAMAAAAo0TYrAAAAElBMVEX///8AAAAAAAAAAAAAAAAAAABknMCaAAAABXRSTlMAEHCg0O5XV0MAAAAzSURBVHgBYwACJkYGZMDMysKIwmUFCyC4KAIsrKgCjPQQQPCpzUX4B9O/mOGBGV7o4QkA5zcCv3HiEZgAAAAASUVORK5CYII=);
+  }
+  .icon-chevron-rotate {
+    transform: rotate(180deg);
+  }
+  .page {
+    /* width: 430px; */
+    padding: 10px 30px;
+  }
+  /* .responsive-calendar-placeholder {
+  } */
+  .responsive-calendar-modal {
+    background-color: #1d86c8;
+    color: white;
+    padding: 1em;
+  }
+  .responsive-calendar .controls {
+    text-align: center;
+  }
+  .responsive-calendar .controls a {
+    cursor: pointer;
+    color: red;
+  }
+  .responsive-calendar .controls h4 {
+    display: inline;
+  }
+  .responsive-calendar .day-headers,
+  .responsive-calendar .days {
+    font-size: 0;
+  }
+  .responsive-calendar .day {
+    display: inline-block;
+    position: relative;
+    font-size: 14px;
+    width: 14.285714285714286%;
+    text-align: center;
+  }
+  .responsive-calendar .day a {
+    color: #000000;
+    display: block;
+    cursor: pointer;
+    padding: 20% 0 20% 0;
+  }
+  .responsive-calendar .day a:hover {
+    background-color: #eee;
+    text-decoration: none;
+  }
+ 
+  .responsive-calendar .day.active a {
+    background-color: #1d86c8;
+    color: #ffffff;
+  }
+  .responsive-calendar .day.active a:hover {
+    background-color: #36a0e2;
+  }
+  .responsive-calendar .day.active .not-current {
+    background-color: #8fcaef;
+    color: #ffffff;
+  }
+  .responsive-calendar .day.active .not-current:hover {
+    background-color: #bcdff5;
+  }
+  .responsive-calendar .day.not-current a {
+    color: #ddd;
+  }
+  .responsive-calendar .day .badge {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    z-index: 1;
+  }
+  .schedule{
+    border-left: 2px solid rgba(217, 217, 217, 1);
+    border-right:2px solid rgba(217, 217, 217, 1) ;
+  }
+
+  @media(max-width:600px){
+    .guide{
+      display: flex !important;
+      flex-direction: column !important;
+      justify-content: center !important;
+      align-items: center !important;
+    }
+  }
+
+  .upbussinessseeting{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    border-radius: 20px;
+background-color: white;
+    margin: 1px;
+  }
+/* Bussiness card End  */
